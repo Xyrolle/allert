@@ -1,0 +1,71 @@
+#features {
+  display: flex;
+  margin: 24vh 0;
+}
+#features h2 {
+  display: block;
+  width: 66%;
+}
+
+.features-heading {
+  font-size: 1.4rem;
+}
+
+.pixel {
+  width: 31%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.features-description {
+  color: #000000;
+  line-height: 1.4;
+  word-wrap: break-word;
+  width: 64%;
+  margin-top: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #features .features-description {
+    width: 80%;
+  }
+  #features h2 {
+    font-size: 0.8rem;
+    width: 94%;
+  }
+  #features p {
+    font-size: 0.6rem;
+  }
+  #features .pixel {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 840px) {
+  #features .features-description {
+    width: 80%;
+  }
+  #features h2 {
+    font-size: 1.3rem;
+  }
+  #features p {
+    font-size: 1rem;
+  }
+  #features .pixel {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=Features.css.map */

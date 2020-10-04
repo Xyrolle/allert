@@ -1,0 +1,68 @@
+#team {
+  height: 90vh;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.team-heading {
+  font-size: 2.4rem;
+  margin: 2rem 0.4rem;
+}
+
+.members-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.member {
+  flex: 1 0 27%;
+  margin: 1.6rem;
+}
+
+.member img {
+  border-radius: 50%;
+  width: 38%;
+  margin-bottom: 0.6rem;
+}
+
+.member p {
+  margin-top: 0.2rem;
+}
+
+#download {
+  height: 30vh;
+  margin: 6vh auto 20vh auto;
+  background-color: #e30613;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#download h3, #download p {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.downloadBtn {
+  padding: 9px 28px;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: #000000;
+  transition: all 0.3s ease 0s;
+  border: none;
+  border-radius: 20px;
+}
+
+.downloadBtn:hover {
+  background-color: #161515;
+}
+
+.downloadBtn img {
+  width: 16px;
+}
+
+/*# sourceMappingURL=Team.css.map */
